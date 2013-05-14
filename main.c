@@ -2,7 +2,7 @@
 
 #define MAXOP 100
 
-double mathfunc(char []);
+void mathfunc(char []);
 void help(void);
 void hr(void);
 
@@ -100,7 +100,7 @@ main()
     return 0;
 }
 
-double mathfunc(char s[])
+void mathfunc(char s[])
 {
     double v2;
     
