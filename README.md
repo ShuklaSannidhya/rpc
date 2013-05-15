@@ -15,25 +15,37 @@ How to use
 ---
 
 In reverse Polish notation, each operator follows its operands.
+
 _Examples:_
+
 An infix expression like
+
 	(1 - 2) * (4 + 5)
+
 is entered as
+
 	1 2 - 4 5 + *
 
 -------------------------------------------------------------
 
 Supported operations and functions are:
+
 	+ - / * %(mod) sin cos tan pow exp
 
 -------------------------------------------------------------
 
 **Variables**
+
 To assign a value to a variable use this syntax:
+
 	<value> <variable> =
+
 _Example:_
+
 	x 5 =
+
 this assigns 5 to x
+
 NOTE: Variables can only be single lower-case letters.
 
 -------------------------------------------------------------
