@@ -2,8 +2,8 @@
 
 #define MAXSTACK 100
 
-int sp = 0;
-double valstack[MAXSTACK];
+static int sp = 0;
+static double valstack[MAXSTACK];
 
 void push(double f)
 {

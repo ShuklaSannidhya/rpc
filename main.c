@@ -6,7 +6,7 @@ void mathfunc(char []);
 void help(void);
 void hr(void);
 
-bool h = false;
+static bool h = false;
 
 main()
 {
