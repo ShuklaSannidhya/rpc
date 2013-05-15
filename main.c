@@ -57,7 +57,7 @@ main()
                 if (islower(var))
                     push(variables[var - 'a'] = pop());
                 else
-                    printf("error: invalid variable name\n");
+                    printf("error: invalid variable name %c\n", var);
                 break;
             case 'A':
                 push(ans);
