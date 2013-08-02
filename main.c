@@ -8,7 +8,7 @@ void hr(void);
 
 static bool h = false;
 
-main()
+int main(void)
 {
     int i, var;
     char s[MAXOP], type;
